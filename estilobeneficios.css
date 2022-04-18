@@ -1,0 +1,76 @@
+
+
+.logo2
+{
+    text-align: center;
+}
+
+.container-fluid
+{
+    text-align: center;
+   
+}
+
+h3
+{
+color: blue;
+font-family: 'Poppins', sans-serif;
+font-size: 60px;
+padding-bottom: 20px;
+
+}
+
+h2
+{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 70px;
+}
+
+.card-group
+{
+    padding-top: 50px;
+}
+
+.list-unstyled{
+    font-size: 13px;
+}
+
+h5
+{
+    text-align: center;
+}
+
+.nav-item
+{
+    text-align: left;
+}
+
+footer{
+
+    background: darkblue;
+    padding-top: 60px;
+    padding: 50px;
+    margin-top: 70px;
+  
+}
+
+.rights-text
+{
+    text-align: center;
+    font-size: x-small;
+    padding-top: 20px;
+    color: white
+}
+
+.texto
+{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 2px;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+}

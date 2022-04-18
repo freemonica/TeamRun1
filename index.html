@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="estilos/estiloindex.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light" style="background-color: #b6ddfa;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="recursos/logo2.png" alt="Logo Team Run" width="60"
+          height="50"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="atletismo.html">Atletismo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="beneficios.html">Beneficios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+
+        </span>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="recursos/mujerfondoanaranjado.jpeg" class="d-block w-100 h-100" alt="Mujer corre en el aire">
+      </div>
+      <div class="carousel-item">
+        <img src="recursos/hombrefondoazul.jpeg" class="d-block w-100 h-100" alt="Hombre corriendo rápido">
+      </div>
+      <div class="carousel-item">
+        <img src="recursos/hombrefondoamarillo.jpeg" class="d-block w-100 h-100" alt="Hombre corriendo en el aire">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <h1>Calendario de carreras</h1>
+
+  <div class="calendario">
+    <select name="" id="meses" onchange="mismeses()">
+      <option value="0">Seleccione un mes</option>
+      <option value="1">Octubre</option>
+      <option value="2">Noviembre</option>
+      <option value="3">Diciembre</option>
+    </select>
+
+
+    <div id="infoMisMeses"></div>
+
+  </div>
+
+
+  <figure class="text-end">
+    <blockquote class="blockquote">
+      <p>Por más fuertes que sean mis piernas, es mi mente la que me convierte en campeón.</p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      <cite title="Source Title">Usain Bold</cite>
+    </figcaption>
+  </figure>
+
+
+
+
+<footer>
+  <div class="footer-container">
+    <div class=".col-md-12">
+
+      <p class="texto">Costa Rica, San José, Moravia</p>
+      <p class="texto">Tel. (506) 8800 0088</p>
+      <p class="texto">email:teamrun@atletismo.com</p>
+
+      <p class="rights-text">&copy; 2021 Created by Team Run All rights reserved</p>
+      
+    </div>
+
+  </div>
+</footer>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+    integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+    crossorigin="anonymous"></script>
+
+  <script src="funciones/funciones.js"></script>
+
+</body>
+
+</html>
